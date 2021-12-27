@@ -1,0 +1,55 @@
+\documentclass[10pt,a4paper,uplatex]{jsarticle}
+
+\usepackage{ascmac}
+
+\begin{document}
+
+%chapter{確率分布と期待値}
+
+\section{期待値}
+
+
+\begin{itembox}[l]{定義}
+  \begin{equation}
+    E[g(X)] = \int g(x)f_X(x) dx
+  \end{equation}
+\end{itembox}
+
+よく混乱するのは、$E[X^2]$ の時に、「$\int x^2f(x^2) dx$ やったっけ？」と思ってしまう（実際は$\int x^2f(x) dx$）。
+確率変数が従う確率密度関数 $f_X(x)$ を使用するだけでよい。
+
+\section{確率の関数表示}
+
+離散か連続かで、「確率関数」か「確率密度関数」とう言葉を使い分けている。
+
+\section{母関数}
+
+母関数（generating function）は、何か（確率密度関数、モーメント）を生成することのできる関数である。
+
+
+\section{確率母関数}
+
+確率密度関数を算出るするためにしようすることができ、一つの確率密度関数と一つの確率母関数（probability generating function）が対応している。
+
+\begin{itembox}[l]{定義}
+aaaa
+\end{itembox}
+
+\section{積率母関数、特性関数}
+
+積率を算出することの出来る関数
+
+\section{}
+
+\begin{itemize}
+  \item 全射：集合$S_1$から$S_2$への射影において、写された$S_1$の像が$S_2$全体である場合。$f(x_1)=x_2$
+  \item 単射：集合$S_1$から$S_2$への射影において、$S_1$の任意の元において $x=y$のときにみ $f(x)=f(y)$となる場合。一対一対応。
+  \item 全単射：全射かつ単射である写像
+\end{itemize}
+
+逆関数とは、$y=f(x)$ を $x=g(y)$ に変形したときの $g(y)$ のことである。
+単調増加（減少）である場合に逆関数が定義できる。
+全単射の関数の場合に、逆関数が定義できる。
+
+
+\end{document}
